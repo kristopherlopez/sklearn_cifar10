@@ -1,6 +1,8 @@
 # sklearn_cifar10
 
-The below classifiers have been used:
+This repo uses sklearn and gridsearch to discover the best performing pre-CNN algorithms on the CIFAR10 dataset.
+
+The following algorithms have been used:
  - Logistic Regression
  - Ridge Regression
  - SGD Classifier
@@ -12,6 +14,7 @@ The below classifiers have been used:
  - Adaptive Boosting (AdaBoost)
 
 Each classifer can be trained with a number of options:
+ - PCA / SVD dimensionality reduction
  - 10-fold cross validation on training data
  - 100% of training data used and evaluated on test data
  - grid search
